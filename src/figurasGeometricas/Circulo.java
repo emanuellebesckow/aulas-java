@@ -22,7 +22,7 @@ public class Circulo extends FiguraGeometrica {
 
 	@Override
 	public double area() {		 
-		return Math.PI * Math.pow(raio, 2);
+		return Math.PI * Math.pow(getRaio(), 2);
 	}
 
 	@Override

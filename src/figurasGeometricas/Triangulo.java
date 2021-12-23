@@ -30,7 +30,7 @@ public class Triangulo extends FiguraGeometrica {
 	@Override
 	public double area() {
 
-		return (altura * base)/2;
+		return (getAltura() * getBase())/2;
 	}
 	
 	@Override

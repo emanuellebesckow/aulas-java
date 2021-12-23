@@ -29,12 +29,11 @@ public class Retangulo extends FiguraGeometrica {
 	@Override
 	public double area() {
 
-		return altura * base;
+		return getAltura() * getBase();
 	}
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return super.toString()+this.area();
 	}
 
